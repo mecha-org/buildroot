@@ -2073,6 +2073,9 @@ N:	Kanak Shilledar <kanakshilledar@gmail.com>
 F:	board/sipeed/licheepi_4a/
 F:	configs/sipeed_licheepi_4a_defconfig
 F:	package/sipeed-lpi4abin/
+F:	board/mecha/
+F:	configs/mecha_comet_defconfig
+F:	configs/mecha_comet_ramfs_defconfig
 
 N:	Karoly Kasza <kaszak@gmail.com>
 F:	package/irqbalance/
