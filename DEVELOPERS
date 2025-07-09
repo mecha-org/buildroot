@@ -2069,14 +2069,14 @@ F:	package/libqb/
 F:	package/usbguard/
 
 N:	Kanak Shilledar <kanakshilledar@gmail.com>
-F:	board/sipeed/licheepi_4a/
-F:	configs/sipeed_licheepi_4a_defconfig
-F:	package/sipeed-lpi4abin/
 F:	board/mecha/
+F:	board/sipeed/licheepi_4a/
 F:	configs/mecha_comet_defconfig
 F:	configs/mecha_comet_gui_defconfig
 F:	configs/mecha_comet_ramfs_defconfig
-F:	configs/mecha_comet_recovery_defconfig
+F:	configs/sipeed_licheepi_4a_defconfig
+F:	package/mecha-bootbin/
+F:	package/sipeed-lpi4abin/
 
 N:	Karoly Kasza <kaszak@gmail.com>
 F:	package/irqbalance/
