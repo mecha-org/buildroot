@@ -1,0 +1,2 @@
+recovery 1000 recovery 1000 - /home/recovery /bin/bash dialout,sudo
+
