@@ -1,0 +1,19 @@
+[Unit]
+Description=Weston Wayland Compositor
+After=systemd-user-sessions.service plymouth-quit-wait.service
+Requires=systemd-logind.service
+Conflicts=getty@tty1.service
+
+[Service]
+ExecStart=/usr/bin/weston --backend=drm-backend.so
+Restart=always
+RestartSec=1
+User=root
+Environment=XDG_RUNTIME_DIR=/tmp/wayland
+WorkingDirectory=/tmp
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+

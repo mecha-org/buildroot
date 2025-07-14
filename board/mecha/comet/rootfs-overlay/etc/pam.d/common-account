@@ -1,0 +1,5 @@
+#%PAM-1.0
+
+account   [success=1 new_authtok_reqd=done default=ignore]  pam_unix.so shadow
+account   requisite    pam_deny.so
+account   required     pam_permit.so
