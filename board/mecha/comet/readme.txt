@@ -16,3 +16,4 @@ mecha_comet_defconfig => emmc flashing image
 mecha_comet_ramfs_defconfig => ramfs flashing image
 mecha_comet_gui_defconfig => gui image
 mecha_comet_recovery_defconfig => ramfs based recovery image
+mecha_comet_recovery_systemd_defconfig => systemd based ramfs recovery image (currently WIP)
